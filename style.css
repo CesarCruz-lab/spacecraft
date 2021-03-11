@@ -19,7 +19,7 @@ body {
 
 .rocket {
   max-width: 75px;
-  animation-name: hit;
+  animation-name: rocket;
   animation-duration: 100ms;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
@@ -65,7 +65,7 @@ body {
 }
 
 
-@keyframes hit {
+@keyframes rocket {
   0%, 100% {
     transform: translateY(-.8px);
   }
