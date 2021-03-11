@@ -6,6 +6,8 @@ body {
 }
 
 .space {
+  position: absolute;
+  z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +27,7 @@ body {
 
 .rocket img {
   position: relative;
-  z-index: 10;
+  z-index: 20;
   max-width: 55px;
 }
 
@@ -33,7 +35,7 @@ body {
   content: '';
   display: block;
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   top: 50%;
   left: 50%;
   transform: translate(-50%);
